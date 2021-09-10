@@ -2,8 +2,7 @@
 $("#create_customer").on("submit", function(e) {
   e.preventDefault();
   // Replase LIST_ID - this sends the customer data to specific list and segment
-  // var LIST_ID = "{ LIST_ID }";
-  var LIST_ID = "SQrmiV";
+  var LIST_ID = "{LIST_ID}";
   // Grab the form fields
   var email = $("input#email").val();
   var phone_number = $("input#phone_number").val();
